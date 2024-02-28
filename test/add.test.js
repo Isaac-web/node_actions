@@ -13,4 +13,9 @@ describe('Add', () => {
     const result = add(-1, 1);
     expect(result).toBe(0);
   });
+
+  it('should return -2 for -1 + -1', () => {
+    const result = add(-1, -1);
+    expect(result).toBe(2);
+  });
 });
